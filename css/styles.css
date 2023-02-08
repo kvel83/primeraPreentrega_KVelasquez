@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url('../media/castro-banner.jpeg');
+    background-size:cover;
+    background-position:center;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner_text{
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:xx-large;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgba(95, 158, 160,.5);
+    height: 200px;
+}
+.nav_bar > ul{
+    list-style-type: none;
+    text-align: center;
+    padding-right: 10px;
+
+}
+.link{
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+}
+.link:hover{
+    background-color:  rgba(95, 158, 160);
+}
+.link > a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    background-image: url('https://voyageaddicted.files.wordpress.com/2014/01/tejuelas-de-chiloe_jose-ferri.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+}
+.slider_container{
+    display: flex;
+    width: 700px;
+    height: 500px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    border: 5px solid rgba(95,158,160, .75);
+    border-radius: 20px;
+}
+.slider_item{
+    flex: 0 0 100%;
+    width: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+}
+.slider_text{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    width: 900px;
+    color:black;
+    font-weight: bolder;
+    font-size:medium;
+    text-shadow: 2px 1px 2px whitesmoke;
+}
+.main{
+    color:black;
+    font-weight: bolder;
+    font-size:medium;
+    text-shadow: 2px 1px 2px whitesmoke;
+}
+.movilizacion{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    justify-content: space-between;
+}
+.mediaMov{
+    width: 500px;
+    /* height: auto; */
+    border-radius: 20px;
+}
+.movilizacion_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.movilizacion_text > p > a{
+    color: black;
+    text-decoration: none;
+}
+.footer{
+    background-color: rgba(95,158,160, .75);
+    color: whitesmoke;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+.festivales, .lugares{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 90%;
+}
+.festivales > h3{
+    text-align: center;
+}
+.calendario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 1000px;
+    font-size: larger
+}
+.calendario > h3{
+    width: 100%;
+    background-color: cadetblue;
+    padding: 10px;
+}
+.calendarioFeb{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    list-style: none;
+    padding: 10px;
+    background-color: floralwhite;
+    gap: 20px;
+    width: 100%;
+}
+.firstDay{
+    grid-column-start: 3;
+}
+.day{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fiesta{
+    font-size: small;
+    list-style: initial;
+    color:cadetblue;
+}
+.cards{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid cadetblue;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: cadetblue;
+}
+.title{
+    text-align: center;
+}
+.cuerpo > img{
+    width: 100%;
+}
+.cuerpo > p{
+    padding: 10px;
+}
+.cardsAlojamiento{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+.cardCiudad{
+    width: 400px;
+    margin-top: 20px;
+}
+.cardCiudad > img{
+    width: 100%;
+    border-radius: 20px;
+}
+.cardCiudad > div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:3rem;
+    color: aliceblue;
+    text-shadow: 2px 1px 2px black;
+}
+
+
+
+
